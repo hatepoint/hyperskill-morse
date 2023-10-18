@@ -58,17 +58,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:text="Clear"
-        app:layout_constraintEnd_toStartOf="@+id/bt_dictionary"
+        app:layout_constraintEnd_toStartOf="@+id/bt_guide"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/et_morse" />
 
     <Button
-        android:id="@+id/bt_dictionary"
+        android:id="@+id/bt_guide"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Dictionary"
+        android:text="Guide"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/bt_clear"
         app:layout_constraintTop_toBottomOf="@+id/et_morse" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
